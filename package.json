@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Example using instant messaging",
   "dependencies": {
-    "node-telegram-bot-api": "*"
+    "node-telegram-bot-api": "*",
+    "node-webcam": "0.3.3"
   },
   "devDependencies": {
     "eslint": "^3.10.2"
