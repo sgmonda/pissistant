@@ -9,8 +9,9 @@ Type=forking
 User=pi
 Restart=always
 RestartSec=5s
-TimeoutStopSec=20
-TimeoutStartSec=infinity
+#TimeoutStopSec=20
+#TimeoutStartSec=infinity
+TimeoutSec=0
 
 [Install]
 WantedBy=multi-user.target
